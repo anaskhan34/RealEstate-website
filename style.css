@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-family: "Roboto", sans-serif;
+    background-color: hsl(0, 0, 96%);
+    
+}
+
+.navbar{
+    padding-top: 5px;
+    margin-inline: 25px;
+    /* position: fixed;
+    top: 0;
+    right: 0;
+    left: 0; */
+
+}
+.active{
+    justify-content: space-between;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+
+.nav-link {
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    justify-content: space-between;
+}
+
+.nav-link:hover{
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn{
+    border: 1px solid black;
+    color: black;
+}
+.btn:hover{
+    background-color: rgb(30, 150, 30);
+}
+
+/* hero */
+.hero{
+    width: auto;
+    margin:30px 0;
+    display: flex;
+    
+}
+.hero-container{
+     padding: 40px;
+     background-color: bisque;
+     gap: 30px;
+}
+
+.card-info h4{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.card-info h1{
+    font-size: 4rem;
+    font-weight: 900;
+    padding-bottom: 25px;
+}
+.card-info p{
+    padding-bottom: 20px;
+}
+.btn-outline-success{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+/* every thing should */
+.every{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* every 2 */
+.every-2{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+/* customs cards */
+
+.card-custom {
+  box-shadow: 0 0 10px rgb(89, 80, 80);
+  border-radius: 10px;
+  padding: 15px;
+  background: #fff;
+  transition: transform 0.3s ease;
+}
+
+.card-custom:hover {
+  transform: translateY(-5px);
+}
+
+.row.g-4 {
+  --bs-gutter-x: 2rem; 
+  --bs-gutter-y: 2rem; 
+}
+
+
+/* global section */
+.global-text{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+    
+.global-text h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardinfo-1 {
+    font-size: 1.2rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cardinfo-1 p{
+    font-weight: 500;
+}
+
+.butn{
+    margin-bottom: 30px;
+}
+
+.primary-btn{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: 0.3s ease-in-out 0.5s;
+}
+
+.primary-btn:hover{
+    background-color: rgb(60, 197, 197);
+    color: white;
+}
+
+.secondary-btn{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+.secondary-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.value-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem; 
+  
+}
+.label {
+  text-align: center;
+  margin-top: 4px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.customers {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.plus {
+  font-size: 40px;
+  font-weight: 800;
+}
+.value span{
+    font-size: 40px;
+    font-weight: 800;
+}
+.yellow{
+    color: yellow;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+
+.news-letter{
+    background-color: bisque;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.news-text{
+    padding-top: 70px;
+}
+
+.news-text h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+}       
+
+.news-text p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-bottom: 79px;
+}   
+.btn-subscribe{
+    border-radius: 30px;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+.form-control{
+    border-radius: 30px;
+    border: none;
+}
+
+/* footer */
+
+.final-footer{
+    margin-top: 110px;
+    padding: 30px 30px 0;
+    text-align: center;
+}
+
+.footer-text{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.footer-text p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.footer-text a{
+    text-decoration: none;
+    color: rgb(18, 193, 132);
+    transition: 0.4s ease-in-out;
+    margin-bottom: 5px;
+}
+.footer-text a:hover{
+    color: rgb(24, 34, 172);
+    text-shadow: 2px 2px 4px rgba(164, 199, 9, 0.2);
+    text-decoration: underline;
+}
+
+.fa-brands{
+    font-size: 3rem;
+    transition: 0.3s ease-in-out 0.1s;
+    color: black;
+}
+
+
+.fa-brands:hover{
+    transform: scale(1.2);
+    color: orange;
+}
+
+.footer-text h2{
+    font-size: 2.9rem;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.real{
+    color: orange;
+}
