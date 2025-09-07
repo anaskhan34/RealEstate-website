@@ -43,4 +43,4 @@ Suggestions and feedback are always welcome! Feel free to fork this repo and mak
 
 ## 📬 Contact
 👤 **Anas Khan**  
-🔗 [LinkedIn Profile]([https://www.linkedin.com/](https://www.linkedin.com/in/anas-khan-052216372 )
+🔗 [[LinkedIn Profile](https://www.linkedin.com/in/anas-khan-052216372/)]
